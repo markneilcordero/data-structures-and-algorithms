@@ -37,9 +37,9 @@ class Sequential_Search {
 }
 
 const ss = new Sequential_Search();
-ss.generate_number(100000);
+ss.generate_number(1000000);
 ss.shuffle_number();
-let random_number = ss.generate_random_number(0, 100000);
+let random_number = ss.generate_random_number(0, 1000000);
 console.log("Searching for number: " + random_number);
 ss.search_number(ss.myArray, random_number);
 console.log("Searching for number: " + random_number);
